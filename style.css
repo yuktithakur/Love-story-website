@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #c3aee6, #ecd4cd);
+    text-align: center;
+}
+
+.logo {
+    width: 380px;
+    display: block;
+    margin: 20px auto;
+     filter: drop-shadow(0 0 10px pink);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card{
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(10, 10, 10, 0.2);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button{
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+     background: linear-gradient(to right,#856fb4,#ecd4cd)
+
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+
+.page{
+    display: none;
+    padding: 20px;
+}
+
+#home{
+    display: block;
+}
+
+
+.story{
+    display: none;
+    background: rgb(210, 195, 226);
+    max-width: 800px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.like-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.heart {
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ff4d6d;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+.heart.liked {
+    content: "❤️";
+    color: red;
+}
+
+.like-count {
+    font-size: 16px;
+    font-weight: bold;
+}
+#searchInput {
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}

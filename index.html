@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Love Stories</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <img class="logo"  src="images/logo.png" alt="logo">
+   
+
+    <nav>
+    <ul>
+        <li onclick="showPage('home')">Home</li>
+        <li onclick="showPage('about')">About</li>
+        <li onclick="showPage('stories')">Stories</li>
+        <li onclick="showPage('contact')">Contact</li>
+    </ul>
+</nav>
+<div id="home" class="page">
+    <h1>Welcome to LOVESTRUCK TALES 💖</h1>
+    <p>This is a collection of beautiful love memories...</p>
+</div>
+<div id="about" class="page">
+    <h1>About Me 👩</h1>
+    <p>Hello! I’m Yukti, a passionate writer who loves creating romantic love stories filled with emotions, memories, heartbreak, and happy endings.
+
+LoveStruck Tales is a small collection of stories written from imagination and feelings that many people can relate to. Through these stories, I hope readers can smile, feel emotional, and believe in love a little more. ❤️
+
+Thank you for visiting my website and becoming a part of these beautiful tales.</p>
+</div>
+<div id="contact" class="page">
+    <h1>Contact 💌</h1>
+    <p>Email: yuktithakur1406@gmail.com</p>
+</div>
+<input type="text" id="searchInput" placeholder="Search stories..." onkeyup="searchStories()">
+    <div class="container">
+
+       
+        <div class="card">
+            <img src="img1.jpg">
+            <h3>The love I Never Expected</h3>
+            <p>Some love may be delayed, but never fades.....</p>
+            <button onclick="showStory('story1')">Read More</button>
+            <div class="like-container">
+    <span class="heart" onclick="likeStory(this)">♡</span>
+    <span class="like-count">0</span>
+</div>
+        </div>
+
+       
+        <div class="card">
+            <img src="images/img2.jpg">
+            <h3>The Love That Waited </h3>
+            <p>Love needs trust, not assumptions....</p>
+            <button onclick="showStory('story2')">Read More</button>
+            <div class="like-container">
+    <span class="heart" onclick="likeStory(this)">♡</span>
+    <span class="like-count">0</span>
+</div>
+        </div>
+
+        <div class="card">
+            <img src="images/img3.jpg">
+            <h3> First Love</h3>
+            <p>Sometimes, love fails not by distance… but by silence</p>
+            <button onclick="showStory('story3')">Read More</button>
+            <div class="like-container">
+    <span class="heart" onclick="likeStory(this)">♡</span>
+    <span class="like-count">0</span>
+</div>
+        </div>
+
+          <div class="card">
+            <img src="images/img4.png">
+            <h3>When i fall in love with you</h3>
+            <p>a rainy evening.....</p>
+            <button onclick="showStory('story4')">Read More</button>
+            <div class="like-container">
+    <span class="heart" onclick="likeStory(this)">♡</span>
+    <span class="like-count">0</span>
+</div>
+        </div>
+
+    </div>
+
+ <div id="story1" class="story">
+        <h2>The love I Never Expected ❤️</h2>
+        <p>Aarohi was the only daughter of her family, loved deeply by her two elder brothers.
+                Among everyone, Rohan — her brother’s best friend — became special in her life.
+
+                As she grew up, her feelings turned into love. One day, she confessed her love,
+                but Rohan rejected her because she was still in high school.
+
+                Heartbroken, Aarohi changed. Rohan went abroad.
+
+                Years later, he returned — realizing he loved her.
+
+                But now Aarohi had changed, and someone else, Aman, had entered her life.
+
+                Rohan felt jealous and regretful. Aarohi was angry and distant.
+
+                But love that is true never fades.
+
+                In the end, Aarohi realized she still loved Rohan.
+
+                And this time... he never let her go.</p>
+    </div>
+
+    
+    
+    <div id="story2" class="story">
+        <h2>The Love That Waited ❤️</h2>
+        <p>Meera was quiet and emotional, while Aditya was confident and lively. They became close friends in college and slowly fell in love—but neither confessed.
+
+One day, Aditya saw Meera with another boy, Raghav, and assumed she had moved on. Without asking, he distanced himself. Meera was confused and hurt by his sudden change.
+
+Later, she confronted him and the truth came out—Raghav was her cousin.
+
+Aditya realized his mistake: he chose assumptions over trust.
+
+He apologized sincerely, and this time, he didn’t walk away. Meera forgave him, and they finally accepted their love.</p>
+    </div>
+
+    <div id="story3" class="story">
+        <h2>First Love ❤️</h2>
+        <p>Naina and Kabir were best friends who talked every day—mostly through late-night calls.
+
+Kabir loved her but never confessed. Naina also had feelings, but she waited for him to say it first.
+
+One night, Kabir decided to confess. He called her again and again—but her phone was busy.
+
+That same night, Naina was on another call… with her parents.
+
+They were fixing her marriage.
+
+The next day, Kabir finally met her, ready to confess—but before he could speak, she said softly:
+
+“My marriage is fixed.”
+
+He smiled… hiding his heartbreak.
+
+Years later, they met again.
+
+Same feelings. Same silence.
+
+But this time, Kabir didn’t wait.
+
+“I love you,” he said.
+
+Naina smiled sadly, showing her ring.
+
+“Too late.”</p>
+    </div>
+
+    <div id="story4" class="story">
+        <h2>When i fall in love with you ❤️</h2>
+        <p>Rain had just stopped when Kiara ran into Reyansh at the old lakeside bridge. It had been three years since they last spoke — three years of silence, misunderstandings, and unfinished feelings.
+
+Back then, they were inseparable. They dreamed together, laughed together, and promised they would never drift apart. But life had other plans. A small misunderstanding slowly turned into distance, and distance turned into silence.
+
+That night, under the glowing lanterns beside the lake, neither of them knew what to say at first. Yet their eyes still carried the same warmth they once knew.
+
+“I used to come here hoping I’d see you again,” Reyansh admitted quietly.
+
+Kiara smiled sadly. “And I stopped coming because I knew I’d miss you more.”
+
+For a moment, the world around them felt still. No anger remained, only memories and feelings that never truly faded.
+
+As the moon reflected on the water, Reyansh held her hand gently and whispered, “Maybe some love stories pause… but they never really end.” ❤️</p>
+    </div>
+
+    <footer>
+  <p>© 2026 LoveStruck Tales ❤️ | Made with love</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
